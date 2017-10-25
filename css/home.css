@@ -22,7 +22,7 @@ header{
 	width: 100%
 	}
 header img{ width: 90%; 
-			padding-left: 1rem}
+			padding-left: 0rem}
 
 
 header li{
@@ -40,20 +40,25 @@ header ul{ padding: 0;
 header .nav a:hover{ 
 		color: #F79420 }
 
+ul{
+	list-style-type: none;
 
+}
 h2{ margin-top: 0;
 	font-size: 12px;
 	padding: 1rem 0;
 	font-family: 'Fjalla One', sans-serif;  
 }
 
-footer{ font-size: 24px;
+footer{ 
+		background-color: #585858;
+		font-size: 24px;
 		color: #F79420;
 		width: 100%;
 		position: absolute;
 		text-align: center;
 		overflow: hidden;
-		top: 89.5%;
+		bottom:0%;
 		font-family: 'Fjalla One', sans-serif;  
 		}
 footer p{ 
@@ -63,14 +68,15 @@ footer p{
 }
 
 footer .col{ 
-		width: 30%;
+		width: 50%;
 		float: left;
 		overflow: hidden;
 		margin-left: 1rem;
 }
 
 footer .col2{ 
-		width: 30%;
+		padding: 0;
+		width: 50%;
 		float: left;
 		overflow: hidden;
 		margin-left: 1rem;}
@@ -81,21 +87,21 @@ footer .col2{
 }
 
 footer ol{
-	padding: 0 2rem;
+	font-size: 30px;
+	padding: 0 0 0 0;
+	margin: 0;
 	list-style-type: none;
 	float: right;
 	display: inline-block;
+	overflow: hidden;
 }
 
 footer li{
 	display: inline-block;
-	padding: 1rem 2rem;
+	padding: 1rem 1rem;
 }
 
-footer ol{
-	margin-bottom: 0;
-	margin-right: 2rem;
-}
+
 
 li a {
 	display: block;
@@ -109,12 +115,12 @@ li a {
 	
 }
 .welcome h2{
-	font-size: 24px;
+	font-size: 18px;
 }
 
 .first h2{
-	right: 66%;
-	bottom: 42%;
+	right: 58%;
+	bottom: 50%;
 	align-content: center;
 	margin:0 0rem;
 	padding: .9rem;
@@ -125,8 +131,8 @@ li a {
 }
 
 .second h2{
-	right: 51%;
-	bottom: 54%;
+	right: 40%;
+	bottom: 65%;
 	align-content: center;
 	margin: 0rem 0rem;
 	padding: .9rem;
@@ -138,8 +144,8 @@ li a {
 
 .third h2{
 
-	right: 63%;
-	bottom: 30%;
+	right: 54%;
+	bottom: 35%;
 	align-content: center;
 	margin:0 0rem;
 	padding: .9rem;
@@ -151,8 +157,8 @@ li a {
 
 
 .fourth h2{
-	right: 67%;
-	bottom: 18%;
+	right: 58.5%;
+	bottom: 20%;
 	align-content: center;
 	margin:0 0rem;
 	padding: .9rem;
@@ -212,7 +218,7 @@ color: none;
 .buck{
 	position: absolute;
 	width: 180% ;
-	top: 10%;
+	top: 20%;
 	right: -40%;
 	z-index: 4;
 }
@@ -271,6 +277,7 @@ h2{ margin-top: 0;
 
 
 footer{ 
+		background-color: transparent;
 		font-family: 'Fjalla One', sans-serif;  
 		font-size: 24px;
 		color: #F79420;
@@ -417,7 +424,7 @@ a{
 	position: absolute;
 	width: 70% ;
 	top: 30%;
-	right: -25%;
+	right: 100%;
 	z-index: 4;
 }
 .buck{
